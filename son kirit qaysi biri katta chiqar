@@ -1,0 +1,20 @@
+def d():
+   i=input('son kiriting>>')
+   f=input('son kiriting>>')
+   x=input('son kiriting>>')
+   if i>f and i>x:
+      print(f'{i} katta')
+   if f>i and f>x:
+      print(f'{f} katta')
+   if x>i and x>f:
+      print(f'{x} katta')
+   if i==f:
+      print(f'{i} bilan {f} teng')
+   if i==x:
+      print(f'{i} bilan {x} teng')
+   if f==x:
+      print(f'{f} bilan {x} teng')
+   if i==f and f==x:
+      print('xammasi teng')
+ 
+d()
